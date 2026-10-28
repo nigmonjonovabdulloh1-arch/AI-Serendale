@@ -1,0 +1,53 @@
+.hero{
+height: 80vh;
+display: flex;
+justify-content: center;
+text-align: center;
+flex-direction:column ;
+position: relative;
+align-items: center;
+
+    .hero-titletext{
+        background: linear-gradient(91.06deg, #FF1CF7 2.26%, #00F0FF 100%);
+        color:transparent;
+        background-clip: text;
+        font-size: 80px;
+        font-weight: 500;
+    }
+
+    .hero-title{
+        color: white;
+           font-size: 80px;
+        font-weight: 500;
+    }
+
+    .hero-description{
+        text-align: center;
+        color: #FFFFFF;
+        font-family: Cabinet Grotesk;
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 32px;
+
+
+
+    }
+    .hero-btn{
+        padding: 22px 32px;
+        width: 176;
+        height: 70;
+        border: none;
+        border-radius: 8px;
+
+    }
+
+    .hero-btn1{
+        background: linear-gradient(180deg, #497CFF 0%, #001664 100%);
+
+    }
+
+    .hero-btn2{
+        background: linear-gradient(180deg, #D1D3E2 0%, #75629D 100%);
+
+    }
+}

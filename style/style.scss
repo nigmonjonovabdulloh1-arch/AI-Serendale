@@ -1,0 +1,42 @@
+@import "./_headr";
+@import "./_hero";
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+.headr-container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+body{
+    background-color: #000000;
+}
+
+.h2{
+    color: azure;
+}
+.navbar{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+
+
+    .navlink{
+        text-decoration: none;
+        color: azure;
+    }
+}
+.imgdiv{
+    display: flex;
+    gap: 16px;
+}
+.hero-img{
+    position: absolute;
+    bottom: -250px;
+    width: 100%;
+    
+}
+
+
